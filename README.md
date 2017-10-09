@@ -3,9 +3,11 @@ FTDI MPSSE devices, such as this one:
 
 https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/C232HM-DDHSL-0/768-1106-ND/2714139
 
-GND => Black => GND  
+```
+GND => Black  
 SCL => Orange  
 SDA => Yellow + Green connected together  
+```
 
 Tested on Windows 10, but hopefully will work on MacOS and Linux also.
 

@@ -10,7 +10,7 @@
  *   Tobias_Mueller@twam.info                                              *
  *                                                                         *
  *   To build use the following gcc statement                              *
- *   gcc -o i2c i2c.c -lftd2xx                                             *
+ *   gcc -I. -Lwin64 -o i2c i2c.c -lftd2xx                                 *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -28,7 +28,8 @@
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
 
-// Tested on Windows 10 using MinGW-w64, FTDI CDM v2.12.28 driver, and C232HM-DDHSL-0 cable
+// Tested on Windows 10 using MinGW-w64 (x86_64-7.1.0-posix-seh-rt_v5-rev2), 
+// FTDI CDM v2.12.28 driver, and C232HM-DDHSL-0 cable
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -15,7 +15,9 @@ Requires the [FTDI 2xxx driver](http://www.ftdichip.com/FTDrivers.htm) to be ins
 
 ## Building
 
-Windows:
+Windows:   
+<b>Prebuilt binaries are located [here](https://github.com/bkuschak/mpsse_tools/releases)</b>    
+  
 I installed MinGW-w64 and make-3.82.  Just run make and it should build.
 
 ## Running

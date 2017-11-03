@@ -270,6 +270,9 @@ int read_bytes(int nbytes)
 		return -1;
 
 	for(i=0; i<nbytes; i++) {
+		// SDA tristate, SCL low
+		set_bits(SDA_OUT);
+
 		// data byte
 		append(MSB_FALLING_EDGE_CLOCK_BYTE_IN);
 		append(0x00);		// one byte
